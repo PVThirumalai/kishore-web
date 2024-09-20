@@ -1,0 +1,209 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.main{
+   width: 100%;
+   background: linear-gradient(to top,rgb(122, 221, 79)50%,rgb(88, 220, 220)50%,);
+   background-image: url(hai.png);
+   background-position: center;
+   background-size: cover;
+   height: 109vh;
+}
+.navbar{
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+.icon{
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+.logo{
+  color: chartreuse;
+  font-family: Arial;
+  padding-left: 10px;
+  float: left;
+  padding-top: 40px;
+}
+.menu{
+  width: 400px;
+  float: right;
+  height: 60px;
+
+}
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul li{
+  list-style: none;
+  margin-left: 30px;
+  margin-top: 15%;
+  font-size: 15px;
+}
+ul li a{
+  text-decoration: none;
+  color: greenyellow;
+  font-family: Arial;
+  font-weight: bolder;
+  transition: 0.2s ease-in-out;
+}
+ul li a:hover{
+  color: orangered;
+}
+.search{
+  width: 300px;
+  height: 43px;
+  border-radius: 30px;
+  float: right;
+  margin-left: 100px;
+  margin-top: 25px;
+  margin-right: 100px;
+
+}
+.srch{
+  font-family: 'Times New Roman';
+  width: 300px;
+  height: 20px;
+  background: transparent;
+  border: 5px solid orangered;
+  margin: top 15px;
+  color: blanchedalmond;
+  border-right: none;
+  font-size: 19px;
+  float: left;
+  padding: 10px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.vino{
+  width: 100px;
+  height: 40px;
+  background: orangered;
+  border: 2px solid rgba(8, 8, 8, 0.87);
+  margin-top: 14px;
+  color: blanchedalmond;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+}
+.vino:hover{
+  background-color: wheat;
+  color: black;
+  outline: none;
+}
+.serch{
+  outline: none;
+}
+.kishore{
+  width: 1200px;
+  height: auto;
+  margin: auto;
+  color: antiquewhite;
+  position: relative;
+}
+.kishore .par{
+  padding-left: 20px;
+  padding-bottom: 25px;
+  font-family:Arial;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+}
+.kishore h1{
+  font-family: 'Times New Roman';
+  font-size: 50px;
+  padding-left: 20px;
+  margin-top: 9%;
+  letter-spacing: 2px;
+
+}
+.kishore .cn{
+  width: 160px;
+  height: 40px;
+  background: orangered;
+  border: none;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.kishore .cn a{
+  text-decoration: none;
+  color: black;
+  transition: .3s ease;
+}
+
+.cn:hover{
+  background-color: white;
+}
+.kishore span{
+  color: orangered;
+  font-size: 60px;
+} 
+.form{
+  width: 250px;
+  height: 380px;
+  background:linear-gradient(to top,rgba(0,78.99)50%,rgba(2, 12, 15, 0.863)50%);
+  position: absolute;
+  top: -10px;
+  left: 800px;
+  border-radius: 15px;
+  padding: 25px;
+}
+.form h2{
+  width: 220px;
+  font-family: sans-serif;
+  text-align: center;
+  color: orangered;
+  font-size: 22px;
+  background-color: yellow;
+  border-radius: 10px;
+  margin: 4px;
+  padding: 9px;
+}
+.form input{
+  width: 240px;
+  height: 25px;
+  background: transparent;
+  border-bottom: 1px solid orangered;
+  border-top:none;
+  border-right: none;
+  border-left: none;
+  color: azure;
+  height: 60px;
+  font-size: 15px;
+
+  letter-spacing: 1px;
+  margin-top: 3px;
+  font-family: sans-serif;
+}
+.form input:focus{
+  outline: none;
+
+}
+::placeholder{
+  color: white;
+  font-family: Arial;
+
+}
+.btnn{
+  width: 250px;
+  height: 40px;
+  background: orangered;
+  border: none;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: rgb(190, 117, 27);
+  transition: 0.3s ease;
+}
+.btnn:hover{
+  background:whitesmoke;
+  color: orangered;
+}
